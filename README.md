@@ -18,7 +18,7 @@ The scripts require the following dependencies:
 You can install these dependencies by running the `installDependencies.sh` script:
 
 ```bash
-./installDependencies.sh
+bash ./installDependencies.sh
 ```
 
 ### Usage
@@ -28,7 +28,7 @@ You can install these dependencies by running the `installDependencies.sh` scrip
 To convert a PNG image to .bruh format, use the `convertPngToBruh.sh` script:
 
 ```bash
-./convertPngToBruh.sh <input.png>
+bash ./convertPngToBruh.sh <input.png>
 ```
 
 Replace `<input.png>` with the path to the PNG image you want to convert. The script will create a .bruh file in the same directory.
@@ -38,11 +38,7 @@ Replace `<input.png>` with the path to the PNG image you want to convert. The sc
 To view a .bruh image, use the `viewBruh.sh` script:
 
 ```bash
-./viewBruh.sh <input.bruh>
+bash ./viewBruh.sh <input.bruh>
 ```
 
 Replace `<input.bruh>` with the path to the .bruh image you want to view. The script will open the image using the default viewer.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
