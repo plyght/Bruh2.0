@@ -4,7 +4,7 @@ This project contains a set of scripts that allow you to convert PNG images to .
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions will get you a copy of the project up and running.
 
 ### Prerequisites
 
@@ -31,7 +31,7 @@ To convert a PNG image to .bruh format, use the `convertPngToBruh.sh` script:
 bash ./convertPngToBruh.sh <input.png>
 ```
 
-Replace `<input.png>` with the path to the PNG image you want to convert. The script will create a .bruh file in the same directory.
+Replace `<input.png>` with the path to the PNG image you want to convert. The script will create a .bruh file in the same directory of the "bruh_but_better" file folder.
 
 #### View .bruh Image
 
